@@ -14,6 +14,11 @@ export class CarsComponent {
 
   inputText = '';
 
+
+
+
+  //adassdasdgit
+
   constructor() {
     setTimeout(() => {
         this.canAddCart = true;
