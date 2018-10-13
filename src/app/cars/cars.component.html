@@ -1,0 +1,17 @@
+
+  <button [disabled]="!canAddCart" class="btn btn-primary" (click)="addCar()" >Button</button>
+
+  <hr>
+  <app-car></app-car>
+  <app-car></app-car>
+  <app-car></app-car>
+
+  <p>{{ addCarStatus }}</p>
+
+  <!--<input type="text" class="form-control" (input)="onKeyUp($event)">-->
+
+  <hr>
+  <!--<input type="text" class="form-control" #myInput (input)="onKeyUp(myInput.value)">-->
+  <hr>
+  <input type="text" class="form-control" #myInput (input)="onKeyUp(myInput.value)">
+  <p>{{ inputText }}</p>
